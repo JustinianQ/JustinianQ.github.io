@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style2.css">
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(
+                function() {
+                    
+                    $("#btn-q3").click(
+                        function() {
+                            $("#showcase-area").empty();
+
+                            $("#showcase-area").append(`
+                                <div class="project-block">
+                                <h3>Website CV</h3>
+                                <img src="image5.png">
+                                <a target="_blank" href="https://drive.google.com/drive/folders/1FD2q7aAYkhFVXC3WMJeS3y_A-WzZT_qw?usp=sharing">Link to project folder</a>
+                                </div>
+                            `); 
+                            
+                            $("#showcase-area").append(`
+                                <div class="project-block">
+                                <h3>Website CV With Tables</h3>
+                                <img src="image6.png">
+                                <a target="_blank" href="https://drive.google.com/drive/folders/1syDAXY6uGfxpkR3VTRkyXu60katUmjVi?usp=sharing">Link to project folder</a>
+                                </div>
+                            `); 
+
+                            $("#showcase-area").append(`
+                                <div class="project-block">
+                                <h3>Marvel Hero Web Page</h3>
+                                <img src="image3.png">
+                                <a target="_blank" href="https://drive.google.com/drive/folders/1KCFtZyFDQmBShNKZZypKPnST4hbEuVQB?usp=sharing">Link to project folder</a>
+                                </div>
+                            `); 
+                        }
+                    );
+
+                    $("#btn-q4").click(
+                        function() {
+                            $("#showcase-area").empty();
+
+                            $("#showcase-area").append(`
+                                <div class="project-block">
+                                <h3>Motorcycle Web Page</h3>
+                                <img src="image4.png">
+                                <a target="_blank" href="https://drive.google.com/drive/folders/1z019_NY87MsGxqGnDovTaCtCjEtgBFOm?usp=sharing">Link to project folder</a>
+                                </div>
+                            `);
+                            
+                            $("#showcase-area").append(`
+                                <div class="project-block">
+                                <h3>CIIT SHS Website</h3>
+                                <img src="image2.png">
+                                <a target="_blank" href="https://drive.google.com/drive/folders/1atTQ3fV1UWtDGhgd49ga0xp2H-TOrZHq?usp=sharing">Link to project folder</a>
+                                </div>
+                            `); 
+
+                            $("#showcase-area").append(`
+                                <div class="project-block">
+                                <h3>Website CV and Portfolio</h3>
+                                <img src="image7.png">
+                                <a target="_blank" href="">Link to project folder</a>
+                                </div>
+                            `); 
+                        }
+                    );
+
+                }
+            );
+        </script>
+        
+        <title>Justin Quezon - Portfolio</title>
+    </head>
+
+    <body>
+        <div id="header">
+            <h1 id="heading">My Portfolio</h1>
+            <h3 id="main-desc">Here is an interactive compilation of my past projects. From web development to other interests of mine.</h3>
+
+        </div>
+
+        <h2 style="text-align: center;">Web Development in CIIT Senior High School</h2>
+
+        <div class="timeline-display">
+            <div>
+                <h3>3rd Quarter</h3>
+                <button id="btn-q3">Click me!</button>
+            </div>
+
+            <div>
+                <h3>4th Quarter</h3>
+                <button id="btn-q4">Click me!</button>
+            </div>
+
+        </div>
+
+        <div id="showcase-area">
+            
+        </div>
+        
+
+        <p style="text-align: center; color: red;">This Portfolio is for educational purposes only!</p>
+
+    </body>
+
+</html>
